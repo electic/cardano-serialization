@@ -1,22 +1,58 @@
 {
-  "name": "cardano-serialization-lib",
+  "_args": [
+    [
+      "@emurgo/cardano-serialization-lib-nodejs@7.0.0",
+      "/Users/electic/Documents/Divinity/code/CoinHub/wallet"
+    ]
+  ],
+  "_from": "@emurgo/cardano-serialization-lib-nodejs@7.0.0",
+  "_id": "@emurgo/cardano-serialization-lib-nodejs@7.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-LrkKqj8ICybFiTGXM08N3s41yCfHR41UxcDr1kJTJtnNyKC7VjZa6YGQuLUXcC5QX3hmfyZ3O8zQoyt9OfeNaQ==",
+  "_location": "/@emurgo/cardano-serialization-lib-nodejs",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@emurgo/cardano-serialization-lib-nodejs@7.0.0",
+    "name": "@emurgo/cardano-serialization-lib-nodejs",
+    "escapedName": "@emurgo%2fcardano-serialization-lib-nodejs",
+    "scope": "@emurgo",
+    "rawSpec": "7.0.0",
+    "saveSpec": null,
+    "fetchSpec": "7.0.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@emurgo/cardano-serialization-lib-nodejs/-/cardano-serialization-lib-nodejs-7.0.0.tgz",
+  "_spec": "7.0.0",
+  "_where": "/Users/electic/Documents/Divinity/code/CoinHub/wallet",
+  "author": {
+    "name": "EMURGO"
+  },
+  "bugs": {
+    "url": "https://github.com/Emurgo/cardano-serialization-lib/issues"
+  },
   "collaborators": [
     "EMURGO"
   ],
   "description": "(De)serialization functions for the Cardano blockchain along with related utility functions",
-  "version": "7.0.0",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Emurgo/cardano-serialization-lib"
-  },
   "files": [
     "cardano_serialization_lib_bg.wasm",
     "cardano_serialization_lib.js",
     "cardano_serialization_lib_bg.js",
-    "cardano_serialization_lib.d.ts"
+    "cardano_serialization_lib.d.ts",
+    "cardano_serialization_lib.js.flow"
   ],
-  "module": "cardano_serialization_lib.js",
+  "homepage": "https://github.com/Emurgo/cardano-serialization-lib#readme",
+  "license": "MIT",
+  "main": "cardano_serialization_lib.js",
+  "name": "@emurgo/cardano-serialization-lib-nodejs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emurgo/cardano-serialization-lib.git"
+  },
   "types": "cardano_serialization_lib.d.ts",
-  "sideEffects": false
+  "version": "7.0.0"
 }
